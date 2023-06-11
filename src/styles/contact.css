@@ -1,0 +1,174 @@
+/* CONTACT PAGE STYLES */
+
+.contact-section {
+  width: 90vw;
+  max-width: 1170px;
+  margin: auto;
+}
+.contact-grid {
+  display: grid;
+
+  width: 90vw;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  grid-template-columns: 45% 45%;
+  column-gap: 10%;
+}
+.large-logo {
+  width: 100%;
+  object-fit: scale-down;
+  object-position: 0 -40px;
+}
+.input-container {
+  text-align: left;
+}
+.input-container > p {
+  margin: 0;
+  margin-bottom: 0.25rem;
+  color: red;
+  font-size: 0.7rem;
+}
+.error-text {
+  margin: 0;
+  margin-bottom: 0.25rem;
+  color: red;
+  font-size: 0.7rem;
+}
+
+label {
+  font-weight: 500;
+  /* display: flex; */
+}
+
+input[type='email'],
+input[type='text'],
+input[type='number'] {
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+  padding: 0.65rem 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #edf2f7;
+  background-color: #f7fafc;
+  color: #2d3748;
+  border-radius: 5px;
+}
+
+.full-width {
+  width: 100%;
+  box-sizing: border-box;
+}
+.gridrow {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 5%;
+  margin-top: 1rem;
+}
+.grid-input {
+  width: 100%;
+}
+input[type='checkbox'] {
+  display: inline-block;
+  height: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 2px solid #edf2f7;
+  width: 1rem;
+  background-color: white;
+  align-self: center;
+  margin-right: 0.5rem;
+}
+
+.submit-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.25rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  background-color: dodgerblue;
+  border-color: cornflowerblue;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+.phone-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.25rem;
+  font-size: 0.75rem;
+  border-radius: 10px;
+  border: 2px solid #edf2f7;
+  background-color: #f7fafc;
+  width: 100%;
+  color: dodgerblue;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+button:hover {
+  color: white;
+  background: rgb(126, 155, 210);
+}
+textarea {
+  font-size: 1rem;
+  border: 2px solid #edf2f7;
+  color: #2d3748;
+  border-radius: 5px;
+  resize: vertical;
+  background-color: #f7fafc;
+  box-sizing: border-box;
+  padding: 0.65rem 0.5rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.75rem;
+  font-family: 'Inv Maison Neue', 'Maison Neue', -apple-system,
+    BlinkMacSystemFont, 'Open Sans', open-sans, sans-serif;
+}
+.textarea-header {
+  display: flex;
+  width: 100%;
+  margin-top: 0.5rem;
+  justify-content: space-between;
+}
+.message-limit {
+  font-size: 0.6rem;
+  padding: 0;
+}
+.address-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 2%;
+  margin-top: 1rem;
+}
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: none; /* Ensure the button is clickable */
+}
+.form-result {
+  position: relative;
+
+  background-color: hsl(93, 38%, 90%);
+  text-align: center;
+  padding: 1rem;
+}
+
+.result-icon {
+  background-color: rgb(116, 192, 116);
+  margin-top: 1.5rem;
+  padding: 0.9rem;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.error-msg {
+  font-size: 0.7rem;
+  color: red;
+  padding: 0.5rem;
+}

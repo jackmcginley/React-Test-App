@@ -1,0 +1,100 @@
+/* Style adaptation for small screen under 600px wide */
+@media screen and (max-width: 600px) {
+  .nav-centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .navlogo-div {
+    width: 30vw;
+  }
+  .nav-links {
+    display: none;
+  }
+  .btn {
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    background: hsl(210, 36%, 96%);
+    color: hsl(209, 28%, 39%);
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: bold;
+    border: 2px solid transparent;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+  }
+
+  .contact-button {
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  .grid {
+    margin-top: 2rem;
+    width: 90vw;
+    row-gap: 50px;
+    /* max-width: 1170px; */
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    grid-template-columns: auto;
+    column-gap: 10vw;
+  }
+  .sect2-insert {
+    width: 70%;
+    opacity: 0.7;
+  }
+  .sect2-insert > a {
+    text-decoration: none;
+  }
+  .columns {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    column-count: 2;
+    column-fill: balance;
+  }
+
+  .contact-grid {
+    display: block;
+
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+  }
+  .large-logo {
+    display: none;
+  }
+}
+/* Expand the side-by-side input text fields when they start to get too short*/
+@media screen and (max-width: 800px) {
+  .gridrow {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .address-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2%;
+    margin-top: 1rem;
+  }
+  .about-img {
+    width: 90vw;
+    position: relative;
+    left: 0%;
+  }
+}
