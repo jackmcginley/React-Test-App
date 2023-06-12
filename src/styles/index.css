@@ -220,3 +220,14 @@ h5 {
   position: relative;
   left: 25%;
 }
+/* FOOTER STYLES */
+.footer {
+  border-top: 1px solid darkslategrey;
+  width: 90vw;
+  max-width: 1170px;
+  margin: 4rem auto;
+  text-align: right;
+  font-size: 0.75rem;
+  padding: 0.5rem;
+  color: darkgrey;
+}
